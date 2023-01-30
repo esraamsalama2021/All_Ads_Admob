@@ -91,6 +91,18 @@
         ads:adSize="SMART_BANNER"
         ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
     </com.google.android.gms.ads.AdView>
+AdView adView = new AdView(this);
 
+adView.setAdSize(AdSize.BANNER);
+
+adView.setAdUnitId("ca-app-pub-3940256099942544/6300978111"); adView = new AdView(this);
+
+adView.setAdSize(AdSize.BANNER);SMART_BANNER
+
+adView.setAdUnitId("ca-app-pub-3940256099942544/6300978111");
+    mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+    }
     </LinearLayout>
 </LinearLayout>
