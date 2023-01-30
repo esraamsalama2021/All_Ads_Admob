@@ -17,6 +17,9 @@
             </intent-filter>
         </activity>
 
+<البيانات
+  الوصفية أندرويد:الاسم="com.google.android.gms.ads.APPLICATION_ID"
+ أندرويد:قيمة="ca-app-pub-2975664167734350~1002765918
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
