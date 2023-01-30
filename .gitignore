@@ -12,3 +12,8 @@
 /captures
 .externalNativeBuild
 .cxx
+MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
