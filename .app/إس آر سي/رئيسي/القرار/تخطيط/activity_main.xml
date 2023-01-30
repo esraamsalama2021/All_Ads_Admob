@@ -27,6 +27,7 @@
         android:layout_weight="0"
         android:text="أعلانات جوجل AdMob" />
 
+private InterstitialAd mInterstitialAd;
 
 
     <Button
@@ -94,3 +95,13 @@
 
     </LinearLayout>
 </LinearLayout>
+InterstitialAd.load(this,"ca-app-pub-2975664167734350~1002765918", adRequest,
+        new InterstitialAdLoadCallback() {
+   AdRequest adRequest = new AdRequest.Builder().build();
+
+
+if (mInterstitialAd != null) {
+  mInterstitialAd.show(MyActivity.this);
+} else {
+  Log.d("TAG", "The interstitial ad wasn't ready yet.");
+}
